@@ -20,6 +20,9 @@ body{
     --bs-navbar-brand-margin-end: 0.4rem;
     --bs-navbar-padding-y:0;
 }
+.text-decora{
+    text-decoration: underline;
+}
 .nav-link{
     font-size: 25px;
     color: #001838;
@@ -38,7 +41,7 @@ body{
     transform: translateY(-10px);
 }
 .row{
-    padding-top: 4rem;
+    padding-top: 1rem;
     padding-bottom: 4rem;
     text-align: center;
 }
@@ -56,4 +59,4 @@ body{
 }
 .text-center {
     padding-bottom: 2rem;
-}
+}   
