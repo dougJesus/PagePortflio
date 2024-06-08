@@ -1,7 +1,7 @@
 body{
     background-color: #fcfcfc;
-    font-family: "Encode Sans Condensed", sans-serif;
-    font-weight: 800;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
     font-style: normal;
     text-decoration: uppercase;
     color: #001838;
@@ -21,6 +21,39 @@ body{
     --bs-navbar-padding-y:0;
 }
 .nav-link{
-    font-size: 20px;
+    font-size: 25px;
     color: #001838;
+}
+.nav-link:hover{
+    color: white;
+    text-shadow: 5px 2px 4px #001838 ;
+}
+.text-meio{
+    font-size: 48px;
+    font-weight: normal;
+    transition: all 0.5s ease-in-out;
+    text-align: center;
+}
+.text-meio:hover{
+    transform: translateY(-10px);
+}
+.row{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    text-align: center;
+}
+.navbar-toggler {
+    width: 6rem;
+    height: 4rem;
+}
+.col-md-6{
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom:3rem;
+}
+.container-fluid{
+    background-color:#98c5e9;
+}
+.text-center {
+    padding-bottom: 2rem;
 }
