@@ -35,7 +35,7 @@ body{
     transform: translateY(-10px);
 }
 .row{
-    padding-top: 4rem;
+    padding-top: 2rem;
     padding-bottom:4rem;
     text-align: center;
 }
@@ -46,20 +46,20 @@ body{
 }
 .col-md-6{
     text-align: center;
-    padding-top: 2rem;
+    
     margin-top: 0;
 }
 .container-fluid{
     background-color:#98c5e9;
 }
 .text-center {
-    padding-bottom: 1rem;
+    padding-bottom: 0.5rem;
 }   
 .fs-2 {
     font-size: 2.5rem!important;
 }
 p {
-    margin-top: 3rem;
+    margin-top: 2rem;
     margin-bottom: 1rem;
 }
 .text-primary{
