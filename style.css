@@ -35,10 +35,11 @@ body{
     transform: translateY(-10px);
 }
 .row{
-    padding-top: 2rem;
-    padding-bottom:2rem;
+    padding-top: 4rem;
+    padding-bottom:4rem;
     text-align: center;
 }
+
 .navbar-toggler {
     width: 6rem;
     height: 4rem;
@@ -74,9 +75,7 @@ p {
     display: flex!important;
     justify-content: space-evenly;
 }
-.card-body{
-    text-align: center;
-}
+.card{}
 .card-body a{
     color: #98c5e9;
 }
