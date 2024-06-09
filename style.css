@@ -25,24 +25,18 @@ body{
 }
 .nav-link{
     font-size: 25px;
-    color: #001838;
+    color: white;
 }
 .nav-link:hover{
-    color: white;
+    color: #001838;
     text-shadow: 5px 2px 4px #001838 ;
-}
-.text-meio{
-    font-size: 48px;
-    font-weight: normal;
-    transition: all 0.5s ease-in-out;
-    text-align: center;
 }
 .text-meio:hover{
     transform: translateY(-10px);
 }
 .row{
-    padding-top: 1rem;
-    padding-bottom: 4rem;
+    padding-top: 2rem;
+    padding-bottom:2rem;
     text-align: center;
 }
 .navbar-toggler {
@@ -51,12 +45,36 @@ body{
 }
 .col-md-6{
     text-align: center;
-    padding-top: 3rem;
-    padding-bottom:3rem;
+    padding-top: 2rem;
+    margin-top: 0;
 }
 .container-fluid{
     background-color:#98c5e9;
 }
 .text-center {
-    padding-bottom: 2rem;
+    padding-bottom: 0rem;
 }   
+.fs-2 {
+    font-size: 2.5rem!important;
+}
+p {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+.text-primary{
+    color: #98c5e9 !important; 
+}
+.text-primary:hover{
+    text-shadow: 5px 2px 4px #001838 ;
+}
+#logoOverflow:hover{
+    animation: bounce 2s infinite;
+}
+@keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px); 
+    }
+}
