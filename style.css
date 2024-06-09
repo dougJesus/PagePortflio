@@ -75,7 +75,6 @@ p {
     display: flex!important;
     justify-content: space-evenly;
 }
-.card{}
 .card-body a{
     color: #98c5e9;
 }
