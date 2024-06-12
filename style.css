@@ -36,7 +36,7 @@ body{
 }
 .row{
     padding-top: 2rem;
-    padding-bottom:4rem;
+    padding-bottom:2rem;
     text-align: center;
 }
 
@@ -89,3 +89,20 @@ p {
       transform: translateY(-10px); 
     }
 }
+.row{
+    --bs-gutter-x:0rem
+}
+.card{
+    margin: auto;
+    width: 22rem !important;
+    transition: transform 0.5s;
+
+}
+.card:hover {
+    transform: translateY(-10px);
+}
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
