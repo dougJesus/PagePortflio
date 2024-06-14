@@ -80,6 +80,7 @@ p {
 }
 .card-body a:hover{
     text-shadow: 5px 2px 4px #001838 ;
+    color:#001838
 }
 @keyframes bounce {
     0%, 100% {
@@ -105,4 +106,9 @@ p {
     height: 200px;
     object-fit: cover;
 }
-
+.section{
+    margin: 0px;
+}
+.footer img{
+    padding: 0.3rem;
+}
