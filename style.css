@@ -83,7 +83,10 @@ p {
       transform: translateY(-10px); 
     }
 }
-
+.text-whit{
+    text-decoration: none;
+    color: #001838;
+}
 .card{
     border: 0;
 }
@@ -102,7 +105,19 @@ p {
     color: #001838;
     text-shadow: 5px 2px 4px #001838 ;
 }
-
+.row a{
+    text-decoration: none;
+}
+.fot{
+    display: flex;
+    justify-content:space-evenly;
+    color: #ffffff;
+    font-size: 18px;
+}
+.fot:hover{
+    color: #001838;
+    text-shadow: 5px 2px 4px #001838 ;
+}
  .card {
         perspective: 1000px;
     }
