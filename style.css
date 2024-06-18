@@ -193,4 +193,81 @@ p {
     .card h5{
         font-size: 12px;
     }
+    .rodape{
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0px;
+        padding: 0px;
+        background-color: #98c5e9;
+    }
+    #logo{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    #resto{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    #resto h5{
+        font-size: 15px;
+        color: white;
+    }
+    #resto h5:hover{
+        color: #001838;
+        text-shadow: 5px 2px 4px #001838;
+        font-weight: bold; 
+    }
+    .DpsRodape{
+        margin: 0px;
+        padding-top: 2rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #98c5e9;
+    }
+    .ListOne ul{
+        display: flex;
+        justify-content: center; 
+    }
+    .ListOne li{
+        color: white;
+        font-size: 12px;
+        padding: 0.2rem;
+        list-style: none;
+        margin: 0px;
+    }
+    .ListOne li:hover{
+        color: #001838;
+        text-shadow: 5px 2px 4px #001838;
+        font-weight: bold; 
+    }
+    #finnaly{
+        margin: 0px;
+        padding: 0px;
+    }
+    #finnaly h6{
+        color: white;
+        font-size: 13px;
+        padding-bottom:1.1rem;
+        display: flex;
+        align-items: center;
+        margin: 0px;
+    }
+    #finnaly h6:hover{
+        color: #001838;
+        text-shadow: 5px 2px 4px #001838;
+        font-weight: bold; 
+    }
+
+
+
+    
+        .horizontal-line {
+            padding-bottom: 0px;
+            margin: 0px;
+            background-color: #98c5e9;
+            border-bottom: 1px solid #ffffff;
+        }
     
