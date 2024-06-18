@@ -243,6 +243,9 @@ p {
         text-shadow: 5px 2px 4px #001838;
         font-weight: bold; 
     }
+    .ListOne a{
+        text-decoration: none;
+    }
     #finnaly{
         margin: 0px;
         padding: 0px;
