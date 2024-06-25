@@ -273,4 +273,10 @@ p {
             background-color: #98c5e9;
             border-bottom: 1px solid #ffffff;
         }
+        .btn-primary{
+            background-color: #98c5e9;
+            text-shadow: 5px 2px 4px #001838;
+        }
+        
+        
     
