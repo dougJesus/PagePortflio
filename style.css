@@ -287,5 +287,8 @@ p {
             height: auto;
             cursor: pointer;
           }
+          .mt-5 {
+            margin-top: 1rem!important;
+        }
 
           
