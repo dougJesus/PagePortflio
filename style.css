@@ -263,7 +263,9 @@ p {
         text-shadow: 5px 2px 4px #001838;
         font-weight: bold; 
     }
-
+    #finnaly a{
+        text-decoration: none;
+    }
 
 
     
